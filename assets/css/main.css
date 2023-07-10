@@ -98,7 +98,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #312450;
+		background: #40513B;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -197,10 +197,10 @@ input, select, textarea {
 		}
 
 			h1.major:after {
-				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
-				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				background-image: -moz-linear-gradient(to right, #40513B, #8da382);
+				background-image: -webkit-linear-gradient(to right, #40513B, #8da382);
+				background-image: -ms-linear-gradient(to right, #40513B, #8da382);
+				background-image: linear-gradient(to right, #40513B, #8da382);
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -1915,7 +1915,7 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			background-color: #ffffff;
-			color: #312450 !important;
+			color: white !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2345,7 +2345,8 @@ input, select, textarea {
 		}
 
 	select {
-		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.15)' /%3E%3C/svg%3E");
+		/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' preserveAspectRatio='none' viewBox='0 0 40 40'%3E%3Cpath d='M9.4,12.3l10.4,10.4l10.4-10.4c0.2-0.2,0.5-0.4,0.9-0.4c0.3,0,0.6,0.1,0.9,0.4l3.3,3.3c0.2,0.2,0.4,0.5,0.4,0.9 c0,0.4-0.1,0.6-0.4,0.9L20.7,31.9c-0.2,0.2-0.5,0.4-0.9,0.4c-0.3,0-0.6-0.1-0.9-0.4L4.3,17.3c-0.2-0.2-0.4-0.5-0.4-0.9 c0-0.4,0.1-0.6,0.4-0.9l3.3-3.3c0.2-0.2,0.5-0.4,0.9-0.4S9.1,12.1,9.4,12.3z' fill='rgba(255, 255, 255, 0.15)' /%3E%3C/svg%3E"); */
+		background-color: #40513B;
 		background-size: 1.25rem;
 		background-repeat: no-repeat;
 		background-position: calc(100% - 1rem) center;
@@ -2356,7 +2357,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #312450;
+			background: #40513B;
 		}
 
 		select:focus::-ms-value {
@@ -2445,6 +2446,7 @@ input, select, textarea {
 			background: #ffffff;
 			border-color: #ffffff;
 			color: #b74e91;
+			/* HERE */
 			content: '\f00c';
 		}
 
@@ -2525,7 +2527,8 @@ input, select, textarea {
 			display: block;
 			background: #ffffff;
 			border-radius: 100%;
-			color: #312450;
+			color: #40513B;
+			/* HERE */
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2536,11 +2539,12 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #40513B;
+					/* HERE */
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					color: #40513B;
 				}
 
 				.wrapper.style2 .icon.major:before {
@@ -3022,7 +3026,7 @@ input, select, textarea {
 				-webkit-transition: opacity 1s ease;
 				-ms-transition: opacity 1s ease;
 				transition: opacity 1s ease;
-				background: rgba(49, 36, 80, 0.9);
+				background: #40513bd5;
 				content: '';
 				display: block;
 				height: 100%;
@@ -3069,6 +3073,14 @@ input, select, textarea {
 
 		.spotlights > section:nth-child(3) {
 			background-color: rgba(0, 0, 0, 0.1);
+		}
+
+		.spotlights > section:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0.15);
+		}
+
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.2);
 		}
 
 		.spotlights > section.inactive > .image:before,
@@ -3236,23 +3248,27 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #261c3e;
+			background-color: #40513B;
+
+			/* HERE */
 		}
 
 		.wrapper.style1 {
-			background-color: #5e42a6;
+			/* background-color: #5e42a6; */
+			background-color: #b0c1a7;
+
 		}
 
 		.wrapper.style1-alt {
-			background-color: #493382;
+			background-color: #40513B;
 		}
 
 		.wrapper.style2 {
-			background-color: #5052b5;
+			background-color: #8da382;
 		}
 
 		.wrapper.style2-alt {
-			background-color: #3e4094;
+			background-color: #79996a;
 		}
 
 		.wrapper.style3 {
@@ -3370,7 +3386,8 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: #40513B;
+		/* HERE */
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3524,7 +3541,7 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #312450;
+		background: #40513B;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3761,7 +3778,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #3c2c62;
+				background: #40513B;
 			}
 
 			#sidebar nav a:after {
@@ -3857,7 +3874,8 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color: #EDF1D6;
+							/* HERE */
 						}
 
 		}
@@ -3874,7 +3892,9 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		/* background-image: url("images/intro.svg"); */
+		/* background-color: white; */
+		/* HERE */
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
@@ -3907,3 +3927,28 @@ input, select, textarea {
 			}
 
 		}
+
+	.zalContainer {
+		display: flex;
+		align-items: center;
+		justify-content: center
+	}
+		
+	img {
+		max-width: 80%;
+		border-radius: 50%;
+
+	}
+		
+	.zalImg {
+		flex-basis: 30%
+	}
+		
+	.zalText {
+		/* font-size: 20px; */
+		/* padding-left: 20px; */
+	}
+
+	.resume {
+		background: #b0c1a7;
+	}
