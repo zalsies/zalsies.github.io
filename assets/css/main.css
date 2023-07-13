@@ -3978,13 +3978,16 @@ input, select, textarea {
 		} */
 
 		.zalImg {
-			flex-basis: 150%
+			flex-basis: 150%;
 		}
 
 		.zalContainer {
-			display: flex;
+			/* display: flex;
 			align-items: stretch;
-			justify-content: center;
+			justify-content: center; */
+			display: inline;
+			vertical-align: top;
+			float: none;
 		}
 
 	}
