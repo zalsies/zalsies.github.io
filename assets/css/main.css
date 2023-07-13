@@ -3931,7 +3931,7 @@ input, select, textarea {
 	.zalContainer {
 		display: flex;
 		align-items: center;
-		justify-content: center
+		justify-content: center;
 	}
 		
 	img {
@@ -3951,4 +3951,40 @@ input, select, textarea {
 
 	.resume {
 		background: #b0c1a7;
+	}
+
+	@media screen and (max-width: 736px) {
+
+		/* #test img {
+			max-width: 200%;
+		} */
+
+		.zalImg {
+			flex-basis: 150%
+		}
+
+		.zalContainer {
+			display: flex;
+			align-items: start;
+			/* justify-content: center; */
+		}
+
+	}
+
+	@media screen and (max-width: 480px) {
+
+		/* #test img {
+			max-width: 200%;
+		} */
+
+		.zalImg {
+			flex-basis: 150%
+		}
+
+		.zalContainer {
+			display: flex;
+			align-items: stretch;
+			justify-content: center;
+		}
+
 	}
