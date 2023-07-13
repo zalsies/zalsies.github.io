@@ -3934,7 +3934,7 @@ input, select, textarea {
 		justify-content: center;
 	}
 		
-	img {
+	.zalContainer img {
 		max-width: 80%;
 		border-radius: 50%;
 
@@ -3977,17 +3977,22 @@ input, select, textarea {
 			max-width: 200%;
 		} */
 
-		.zalImg {
-			flex-basis: 150%;
+		.zalContainer img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 20px;
+			width: 70%;
 		}
 
 		.zalContainer {
 			/* display: flex;
-			align-items: stretch;
-			justify-content: center; */
+			align-items: stretch; */
+			/* justify-content: center; */
 			display: inline;
 			vertical-align: top;
 			float: none;
+			
 		}
 
 	}
